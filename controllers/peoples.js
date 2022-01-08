@@ -43,7 +43,7 @@ peoplesRouter.put('/:id', (req, res) => {
         if (err) {
             res.status(400).json(err);
         } else {
-            res.status(200).redirect(`/api/people/${person._id}`);
+            res.status(200).json(person);
         }
     })
 });
@@ -54,7 +54,7 @@ peoplesRouter.delete('/:id', (req, res) => {
         if (err) {
             res.status(400).json(err);
         } else {
-            res.status(200).redirect('/api/people');
+            res.status(200).json(person);
         }
     })
 });
