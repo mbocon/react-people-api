@@ -2,7 +2,7 @@ const express = require('express');
 
 const peoplesRouter = express.Router();
 
-const People = require('../models/people');
+const People = require('../models/People');
 
 // Index Route - Get all people from the database 
 peoplesRouter.get('/', (req, res) => {
