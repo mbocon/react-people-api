@@ -12,6 +12,10 @@
 - Morgan
 - Heroku
 
+## Heroku URL
+
+- [See live](https://react-people-api.herokuapp.com/api/people)
+
 ## Future Enhancements
 
 - TBD
